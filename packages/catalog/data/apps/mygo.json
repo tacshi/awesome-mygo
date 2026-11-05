@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "mygo",
+	"name": "MyGo 云音乐",
+	"author": "xyspg",
+	"kind": "native",
+	"category": "MultimediaApplication",
+	"url": "https://github.com/xyspg/haruhikage",
+	"repo": "xyspg/haruhikage",
+	"summary": {
+		"en": "A third-party NetEase Cloud Music desktop client with lyrics, private FM and lossless playback.",
+		"zh-CN": "第三方网易云音乐桌面客户端，支持逐字歌词、私人 FM 与无损播放。",
+		"zh-TW": "第三方網易雲音樂桌面用戶端，支援逐字歌詞、私人 FM 與無損播放。",
+		"ja": "NetEase Cloud Music の非公式デスクトップクライアント。歌詞やロスレス再生に対応。",
+		"ko": "넷이즈 클라우드 뮤직의 비공식 데스크톱 클라이언트. 가사, 개인 FM, 무손실 재생 지원."
+	},
+	"description": {
+		"en": "A third-party NetEase Cloud Music desktop client written in Go and drawn with MyGo's native UI, with no web view. It signs in by QR code, plays daily picks, playlists and private FM, streams up to lossless FLAC and Hi-Res, and shows word-by-word lyrics with translations. Podcast episodes can be transcribed on your own machine with Qwen3-ASR and scroll along like lyrics.",
+		"zh-CN": "用 Go 编写、由 MyGo 原生界面绘制的第三方网易云音乐桌面客户端，没有 WebView。支持扫码登录、每日推荐、歌单、排行榜与私人 FM，边下边播，最高可选无损（FLAC）与 Hi-Res 音质，逐字歌词附带翻译。播客节目可在本机用 Qwen3-ASR 转写成字幕，像歌词一样随播放滚动。",
+		"zh-TW": "用 Go 撰寫、由 MyGo 原生介面繪製的第三方網易雲音樂桌面用戶端，沒有 WebView。支援掃碼登入、每日推薦、歌單、排行榜與私人 FM，邊下載邊播放，最高可選無損（FLAC）與 Hi-Res 音質，逐字歌詞附有翻譯。Podcast 節目可在本機以 Qwen3-ASR 轉寫成字幕，像歌詞一樣隨播放捲動。",
+		"ja": "Go で書かれ、MyGo のネイティブ UI で描かれた網易雲音楽（NetEase Cloud Music）の非公式デスクトップクライアント。WebView は使いません。QR コードでログインし、毎日のおすすめ、プレイリスト、ランキング、プライベート FM を再生でき、音質はロスレス（FLAC）や Hi-Res まで選べます。歌詞は一語ずつ翻訳付きで表示されます。ポッドキャストはローカルの Qwen3-ASR で字幕にでき、歌詞のようにスクロールします。",
+		"ko": "Go로 작성하고 MyGo의 네이티브 UI로 그린 넷이즈 클라우드 뮤직 비공식 데스크톱 클라이언트로, 웹 뷰를 쓰지 않습니다. QR 코드로 로그인해 일일 추천, 플레이리스트, 차트, 개인 FM을 듣고, 음질은 무손실(FLAC)과 Hi-Res까지 고를 수 있으며, 가사는 글자 단위로 번역과 함께 표시됩니다. 팟캐스트 에피소드는 로컬에서 Qwen3-ASR로 자막을 만들어 가사처럼 스크롤됩니다."
+	},
+	"icon": {
+		"file": "mygo.webp"
+	},
+	"screenshot": "mygo.webp",
+	"provisional": [
+		"screenshot"
+	],
+	"added": "2026-11-05T05:38:23Z"
+}
