@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "myguo",
+	"name": "myguo",
+	"author": "zcyoung2000",
+	"kind": "web",
+	"group": "media",
+	"url": "https://github.com/zcyoung2000/hongguo-mygo",
+	"repo": "zcyoung2000/hongguo-mygo",
+	"summary": {
+		"en": "An unofficial macOS client for Hongguo short dramas: search, watch, read comments and danmaku.",
+		"zh-CN": "非官方红果短剧 macOS 客户端：搜索、观看，查看评论与弹幕。",
+		"zh-TW": "非官方紅果短劇 macOS 用戶端：搜尋、觀看，查看留言與彈幕。",
+		"ja": "Hongguo ショートドラマの非公式 macOS クライアント。検索、再生、コメント、弾幕に対応。",
+		"ko": "Hongguo 숏드라마를 위한 비공식 macOS 클라이언트. 검색, 재생, 댓글과 탄막 지원."
+	},
+	"description": {
+		"en": "An unofficial macOS client for Hongguo short dramas, built on a MyGo web frontend: plain JavaScript in a WKWebView window, talking to Go over a typed IPC bridge. It searches and browses rankings and series, plays episodes with quality selection and saved progress, and shows comments and timed danmaku. Pasting an account Cookie syncs history and favorites.",
+		"zh-CN": "非官方的红果短剧 macOS 客户端，基于 MyGo 的 Web 前端构建：纯 JavaScript 界面运行在 WKWebView 窗口中，通过类型化的 IPC 桥与 Go 通信。可以搜索、浏览榜单和剧集详情，播放时支持清晰度选择与进度保存，并显示评论和随时间出现的弹幕；粘贴账号 Cookie 后可同步观看历史与收藏。",
+		"zh-TW": "非官方的紅果短劇 macOS 用戶端，以 MyGo 的 Web 前端打造：純 JavaScript 介面執行於 WKWebView 視窗中，透過型別化的 IPC 橋接與 Go 溝通。可搜尋、瀏覽排行榜與劇集詳情，播放時支援畫質選擇與進度儲存，並顯示留言和隨時間出現的彈幕；貼上帳號 Cookie 後可同步觀看紀錄與收藏。",
+		"ja": "Hongguo のショートドラマを見るための非公式 macOS クライアント。MyGo の Web フロントエンドで作られ、素の JavaScript の画面を WKWebView のウィンドウに表示し、型付きの IPC ブリッジで Go とやり取りします。検索やランキング、作品ページから探せ、画質の選択や再生位置の保存に対応し、コメントと時間同期の弾幕も表示します。アカウントの Cookie を貼り付けると、履歴やお気に入りを同期できます。",
+		"ko": "Hongguo 숏드라마를 보기 위한 비공식 macOS 클라이언트입니다. MyGo의 웹 프런트엔드로 만들어져 순수 JavaScript 화면을 WKWebView 창에 띄우고 타입이 지정된 IPC 브리지로 Go와 통신합니다. 검색, 랭킹, 작품 상세로 드라마를 찾고, 화질 선택과 재생 위치 저장을 지원하며 댓글과 시간에 맞춘 탄막을 보여 줍니다. 계정 Cookie를 붙여 넣으면 기록과 즐겨찾기를 동기화합니다."
+	},
+	"icon": {
+		"file": "myguo.webp"
+	},
+	"screenshot": "myguo.webp",
+	"provisional": [
+		"screenshot"
+	],
+	"added": "2026-11-05T08:28:47Z"
+}
