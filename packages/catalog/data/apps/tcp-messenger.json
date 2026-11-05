@@ -1,0 +1,33 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "tcp-messenger",
+	"name": "TCP Messenger",
+	"author": "earmer",
+	"kind": "native",
+	"category": "CommunicationApplication",
+	"url": "https://github.com/earmer/tcpmessenger",
+	"repo": "earmer/tcpmessenger",
+	"summary": {
+		"en": "A serverless LAN messenger that sends messages and files between computers over TCP.",
+		"zh-CN": "无需服务器的局域网聊天工具，通过 TCP 在电脑间收发消息和文件。",
+		"zh-TW": "免伺服器的區域網路傳訊工具，透過 TCP 在電腦間收發訊息與檔案。",
+		"ja": "サーバー不要の LAN メッセンジャー。TCP でメッセージやファイルを直接送受信。",
+		"ko": "서버 없는 LAN 메신저. TCP로 컴퓨터끼리 메시지와 파일을 주고받습니다."
+	},
+	"description": {
+		"en": "A LAN messenger drawn with MyGo's native UI that sends messages and files directly between computers over TCP, with no server in between. It keeps an icon in the system tray.",
+		"zh-CN": "用 MyGo 原生 UI 绘制的局域网聊天工具，不经过服务器，通过 TCP 在电脑之间直接收发消息和文件。程序会在系统托盘中显示图标。",
+		"zh-TW": "用 MyGo 原生 UI 繪製的區域網路傳訊工具，不經過伺服器，透過 TCP 在電腦之間直接收發訊息與檔案。程式會在系統匣中顯示圖示。",
+		"ja": "MyGo のネイティブ UI で描かれた LAN メッセンジャー。サーバーを介さず、TCP でコンピューター同士が直接メッセージやファイルをやり取りします。システムトレイにアイコンを置いて動作します。",
+		"ko": "MyGo의 네이티브 UI로 그린 LAN 메신저로, 서버 없이 TCP로 컴퓨터끼리 메시지와 파일을 직접 주고받습니다. 시스템 트레이에 아이콘을 두고 동작합니다."
+	},
+	"icon": {
+		"file": "tcp-messenger.webp"
+	},
+	"provisional": [
+		"icon",
+		"screenshot"
+	],
+	"screenshot": "tcp-messenger.webp",
+	"added": "2026-11-05T05:19:24Z"
+}
