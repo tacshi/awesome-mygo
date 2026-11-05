@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "deskfuse",
+	"name": "DeskFuse",
+	"author": "GodD6366",
+	"kind": "web",
+	"category": "UtilitiesApplication",
+	"url": "https://github.com/GodD6366/DeskFuse",
+	"repo": "GodD6366/DeskFuse",
+	"summary": {
+		"en": "Syncs clipboards, sends and shelves files, and shares keyboard and mouse between devices.",
+		"zh-CN": "在设备之间同步剪贴板、传输和暂存文件，并共享键盘鼠标。",
+		"zh-TW": "在裝置之間同步剪貼簿、傳輸和暫存檔案，並共用鍵盤滑鼠。",
+		"ja": "デバイス間でクリップボードを同期し、ファイルを送って一時保管し、キーボードとマウスを共有。",
+		"ko": "기기 사이에서 클립보드를 동기화하고, 파일을 보내고 보관하며, 키보드와 마우스를 함께 씁니다."
+	},
+	"description": {
+		"en": "The beta Windows x64 build of DeskFuse, which links trusted devices: it syncs text, images and clipboard history, sends files and folders, stages files in a drawer, and shares one keyboard and mouse across screens, encrypted over QUIC. DeskFuse is macOS-first, with a Mac app written in Rust and SwiftUI; the entry lists this Windows version as built with a MyGo web frontend.",
+		"zh-CN": "DeskFuse 的 Windows x64 版本（Beta），在可信设备之间同步文本、图片和剪贴板历史，传输文件与文件夹，用暂存抽屉存放文件，并让一套键鼠跨屏共享，传输经 QUIC 加密。DeskFuse 以 macOS 为主，Mac 版用 Rust 与 SwiftUI 编写；据提交信息，这个 Windows 版用 MyGo 的 Web 前端构建。",
+		"zh-TW": "DeskFuse 的 Windows x64 版本（Beta），在信任的裝置之間同步文字、圖片和剪貼簿歷史，傳輸檔案與資料夾，用暫存抽屜存放檔案，並讓一組鍵盤滑鼠跨螢幕共用，傳輸經 QUIC 加密。DeskFuse 以 macOS 為主，Mac 版以 Rust 與 SwiftUI 撰寫；依提交資訊，這個 Windows 版以 MyGo 的 Web 前端建置。",
+		"ja": "DeskFuse の Windows x64 版（ベータ）。信頼できるデバイス間でテキスト、画像、クリップボード履歴を同期し、ファイルやフォルダーを送り、ファイルを一時置きの引き出しに保管し、1 組のキーボードとマウスを画面をまたいで共有します。通信は QUIC で暗号化されます。DeskFuse は macOS が主で、Mac 版は Rust と SwiftUI で書かれています。この Windows 版は、登録内容によれば MyGo の Web フロントエンドで作られています。",
+		"ko": "DeskFuse의 Windows x64 버전(베타)입니다. 신뢰하는 기기 사이에서 텍스트, 이미지, 클립보드 기록을 동기화하고, 파일과 폴더를 보내고, 파일을 임시 보관 서랍에 두며, 키보드와 마우스 한 벌을 여러 화면에서 함께 씁니다. 전송은 QUIC로 암호화됩니다. DeskFuse는 macOS가 주 플랫폼이며 Mac 앱은 Rust와 SwiftUI로 만들었고, 등록 정보에 따르면 이 Windows 버전은 MyGo의 웹 프런트엔드로 만들었습니다."
+	},
+	"icon": {
+		"file": "deskfuse.webp"
+	},
+	"provisional": [
+		"icon"
+	],
+	"screenshot": "deskfuse.webp",
+	"added": "2026-11-05T05:38:23Z"
+}
