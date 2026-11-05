@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "gzist-hotspot",
+	"name": "GZIST Hotspot",
+	"author": "xiaomai1011",
+	"kind": "native",
+	"category": "UtilitiesApplication",
+	"url": "https://github.com/xiaomai1011/GZIST-Hotspot",
+	"repo": "xiaomai1011/GZIST-Hotspot",
+	"summary": {
+		"en": "Windows tray app that turns a PC's wired campus connection into a Wi-Fi hotspot in one click.",
+		"zh-CN": "Windows 托盘工具，一键把电脑的有线校园网变成 Wi-Fi 热点。",
+		"zh-TW": "Windows 系統匣工具，一鍵把電腦的有線校園網路變成 Wi-Fi 熱點。",
+		"ja": "有線のキャンパスネットを Wi-Fi ホットスポットとして共有する Windows トレイアプリ。",
+		"ko": "PC의 유선 캠퍼스 네트워크를 Wi-Fi 핫스팟으로 공유하는 Windows 트레이 앱."
+	},
+	"description": {
+		"en": "A tray app for Windows 10 (1809+) and 11, made for the campus network of the Guangzhou Institute of Science and Technology and drawn with MyGo's native UI. It shares the PC's wired connection as a Wi-Fi hotspot so the campus network sees only one device, and first turns off Clash's TUN mode through mihomo, since the two conflict. It needs a Wi-Fi adapter that supports Wi-Fi Direct.",
+		"zh-CN": "为广州理工学院校园网而做的 Windows 10（1809+）与 Windows 11 托盘工具，界面由 MyGo 原生 UI 绘制。它把电脑的有线网络以 Wi-Fi 热点共享出去，校园网始终只看到这一台电脑；由于 Clash 的 TUN 模式与热点冲突，开热点前会经 mihomo 自动关闭 TUN。无线网卡需要支持 Wi-Fi Direct。",
+		"zh-TW": "為廣州理工學院校園網路打造的 Windows 10（1809+）與 Windows 11 系統匣工具，介面由 MyGo 原生 UI 繪製。它把電腦的有線網路以 Wi-Fi 熱點分享出去，校園網路始終只看到這一台電腦；由於 Clash 的 TUN 模式與熱點衝突，開熱點前會透過 mihomo 自動關閉 TUN。無線網卡需支援 Wi-Fi Direct。",
+		"ja": "広州理工学院のキャンパスネットワーク向けに作られた Windows 10（1809 以降）・11 用のトレイアプリで、MyGo のネイティブ UI で描かれています。PC の有線接続を Wi-Fi ホットスポットとして共有するので、キャンパスネットワークからは 1 台の PC にしか見えません。Clash の TUN モードはホットスポットと競合するため、開始前に mihomo 経由で自動的にオフにします。無線アダプターは Wi-Fi Direct に対応している必要があります。",
+		"ko": "광저우이공학원 캠퍼스 네트워크를 위해 만든 Windows 10(1809 이상)·11용 트레이 앱으로, MyGo의 네이티브 UI로 그렸습니다. PC의 유선 연결을 Wi-Fi 핫스팟으로 공유해 캠퍼스 네트워크에는 PC 한 대만 보입니다. Clash의 TUN 모드는 핫스팟과 충돌하므로 핫스팟을 켜기 전에 mihomo를 통해 자동으로 끕니다. 무선 어댑터가 Wi-Fi Direct를 지원해야 합니다."
+	},
+	"icon": {
+		"file": "gzist-hotspot.webp"
+	},
+	"screenshot": "gzist-hotspot.webp",
+	"provisional": [
+		"screenshot"
+	],
+	"added": "2026-11-05T03:22:12Z"
+}
