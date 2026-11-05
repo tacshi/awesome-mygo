@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "koma",
+	"name": "koma",
+	"author": "kvoon3",
+	"kind": "web",
+	"category": "MultimediaApplication",
+	"url": "https://github.com/kvoon3/koma",
+	"repo": "kvoon3/koma",
+	"summary": {
+		"en": "A tmux-style photo collage tool: split panes, then pan, zoom and crop a photo in each.",
+		"zh-CN": "tmux 式照片拼图工具：拆分窗格，在每格里平移、缩放和裁剪照片。",
+		"zh-TW": "tmux 式照片拼貼工具：分割窗格，在每格中平移、縮放與裁切照片。",
+		"ja": "tmux のようにペインを分割し、各ペインで写真を移動・拡大・トリミングするコラージュツール。",
+		"ko": "tmux처럼 창을 나누고 각 창에서 사진을 이동·확대·자르는 콜라주 도구."
+	},
+	"description": {
+		"en": "A photo collage tool laid out like tmux: you start with one pane, split it right or down, drag the dividers to resize, and drop a photo into each pane to pan, zoom and crop it. Whatever falls outside a pane is cut away, so arranging panes is the whole editor. MyGo builds the desktop version from the app's web frontend; the browser version is deployed separately to Cloudflare Workers.",
+		"zh-CN": "以 tmux 的方式排版的照片拼图工具：从一个窗格开始，向右或向下拆分，拖动分隔线调整大小，再把照片放进各个窗格里平移、缩放和裁剪。超出窗格的部分会被裁掉，排好窗格就完成了编辑。MyGo 用它的 Web 前端构建桌面版，浏览器版则另行部署在 Cloudflare Workers 上。",
+		"zh-TW": "以 tmux 的方式排版的照片拼貼工具：從一個窗格開始，向右或向下分割，拖曳分隔線調整大小，再把照片放進各個窗格中平移、縮放與裁切。超出窗格的部分會被裁掉，排好窗格就完成了編輯。MyGo 以它的 Web 前端建置桌面版，瀏覽器版則另行部署在 Cloudflare Workers 上。",
+		"ja": "tmux のようにペインを分割して組むフォトコラージュツール。1 つのペインから始めて右や下に分割し、境界線をドラッグしてサイズを変え、各ペインに写真をドロップして移動・ズーム・トリミングします。ペインからはみ出た部分は切り取られ、ペインを並べることがそのまま編集になります。MyGo は Web フロントエンドからデスクトップ版をビルドし、ブラウザ版は別途 Cloudflare Workers にデプロイされています。",
+		"ko": "tmux처럼 창을 나눠 구성하는 사진 콜라주 도구입니다. 창 하나에서 시작해 오른쪽이나 아래로 나누고, 구분선을 끌어 크기를 바꾸고, 각 창에 사진을 놓아 이동·확대·자르기를 합니다. 창 밖으로 벗어난 부분은 잘려 나가므로 창을 배치하는 것이 곧 편집입니다. MyGo는 웹 프런트엔드로 데스크톱 버전을 빌드하며, 브라우저 버전은 Cloudflare Workers에 따로 배포됩니다."
+	},
+	"icon": {
+		"file": "koma.webp"
+	},
+	"screenshot": "koma.webp",
+	"provisional": [
+		"screenshot"
+	],
+	"added": "2026-11-05T05:02:32Z"
+}
