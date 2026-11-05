@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "gdut-course-helper",
+	"name": "GDUT Course Helper",
+	"author": "KirishimaRin",
+	"kind": "web",
+	"category": "UtilitiesApplication",
+	"url": "https://github.com/KirishimaRin/GDUT_Course_Helper",
+	"repo": "KirishimaRin/GDUT_Course_Helper",
+	"summary": {
+		"en": "Auto-registers Guangdong University of Technology students for the courses on their wishlist.",
+		"zh-CN": "广东工业大学抢课工具：浏览课程、加入愿望清单，自动并发抢课。",
+		"zh-TW": "廣東工業大學搶課工具：瀏覽課程、加入願望清單，自動同時搶課。",
+		"ja": "広東工業大学の履修登録ツール。授業を探してウィッシュリストに入れ、自動で登録。",
+		"ko": "광둥공업대학 수강신청 도우미. 강의를 찾아 위시리스트에 담으면 자동으로 신청합니다."
+	},
+	"description": {
+		"en": "A course-grabbing tool for Guangdong University of Technology's academic system, built with MyGo and a Vite and TypeScript web frontend. Paste the JSESSIONID from your browser, browse and filter courses and build a wishlist; it registers with up to five goroutines and skips full courses. It keeps running in the tray when closed and sends a system notification when it gets a course.",
+		"zh-CN": "面向广东工业大学教务系统的桌面抢课工具，基于 MyGo 构建，前端使用 Vite 与 TypeScript。从浏览器复制 JSESSIONID 登录后，即可搜索、筛选课程并整理愿望清单，再由最多 5 个 goroutine 并发抢课，课程已满会自动跳过。关闭窗口后仍在托盘运行，抢到课会弹出系统通知。",
+		"zh-TW": "為廣東工業大學教務系統打造的桌面搶課工具，以 MyGo 建構，前端採用 Vite 與 TypeScript。從瀏覽器複製 JSESSIONID 登入後，即可搜尋、篩選課程並整理願望清單，再由最多 5 個 goroutine 同時搶課，課程額滿會自動略過。關閉視窗後仍在系統匣執行，搶到課會跳出系統通知。",
+		"ja": "広東工業大学の教務システム向けのデスクトップ履修登録ツール。MyGo で作られ、フロントエンドは Vite と TypeScript です。ブラウザーからコピーした JSESSIONID でログインし、授業を検索・絞り込んでウィッシュリストにまとめると、最大 5 つの goroutine で並行して登録を試み、満員の授業は飛ばします。ウィンドウを閉じてもトレイで動き続け、登録できるとシステム通知で知らせます。",
+		"ko": "광둥공업대학 학사 시스템용 데스크톱 수강신청 도구로, MyGo로 만들었고 프런트엔드는 Vite와 TypeScript입니다. 브라우저에서 복사한 JSESSIONID로 로그인해 강의를 검색·필터링하고 위시리스트를 만들면, 최대 5개의 goroutine으로 동시에 신청하며 정원이 찬 강의는 건너뜁니다. 창을 닫아도 트레이에서 계속 실행되고, 신청에 성공하면 시스템 알림을 띄웁니다."
+	},
+	"icon": {
+		"file": "gdut-course-helper.webp"
+	},
+	"provisional": [
+		"icon"
+	],
+	"screenshot": "gdut-course-helper.webp",
+	"added": "2026-11-05T02:29:36Z"
+}
