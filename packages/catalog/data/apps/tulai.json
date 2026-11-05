@@ -1,0 +1,32 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "tulai",
+	"name": "tulai",
+	"author": "xxww0098",
+	"kind": "native",
+	"category": "MultimediaApplication",
+	"url": "https://github.com/xxww0098/tulai",
+	"repo": "xxww0098/tulai",
+	"summary": {
+		"en": "Batch-generates images with Doubao and Qianwen from prompts or source images, plus image tools.",
+		"zh-CN": "用豆包和千问批量文生图、图生图，附带图片下载、去重与重命名工具。",
+		"zh-TW": "用豆包和千問批次文生圖、圖生圖，附帶圖片下載、去重與重新命名工具。",
+		"ja": "豆包と千問で画像を一括生成。画像のダウンロード、重複除去、リネームも。",
+		"ko": "Doubao와 Qianwen으로 이미지 일괄 생성, 이미지 다운로드·중복 정리·이름 변경까지."
+	},
+	"description": {
+		"en": "A desktop app for macOS, Windows and Linux, written in pure Go and drawn with MyGo's native UI, that runs batches of text-to-image and image-to-image jobs on Doubao and Qianwen, spreading them across your logged-in accounts in Camoufox browsers. It also downloads images from web pages and spreadsheets, removes duplicate images and renames files in bulk. New releases are published for Windows only.",
+		"zh-CN": "用纯 Go 编写、由 MyGo 原生 UI 绘制的桌面应用，面向 macOS、Windows 与 Linux，可在豆包和千问上批量文生图、图生图，并把任务分派给在 Camoufox 浏览器里登录的多个账号。另有网页与表格图片下载、图片去重和批量重命名。新版本目前只发布 Windows 版。",
+		"zh-TW": "用純 Go 撰寫、以 MyGo 原生 UI 繪製的桌面應用程式，支援 macOS、Windows 與 Linux，可在豆包和千問上批次文生圖、圖生圖，並把任務分派給在 Camoufox 瀏覽器中登入的多個帳號。另有網頁與試算表圖片下載、圖片去重和批次重新命名。新版本目前只發布 Windows 版。",
+		"ja": "純粋な Go で書かれ、MyGo のネイティブ UI で描かれた macOS・Windows・Linux 向けのデスクトップアプリ。豆包と千問でテキストからの画像生成と画像からの画像生成を一括で行い、Camoufox ブラウザでログインした複数のアカウントにタスクを振り分けます。Web ページや表からの画像ダウンロード、重複画像の除去、ファイルの一括リネームも備えています。新しいリリースは現在 Windows 版のみです。",
+		"ko": "순수 Go로 작성하고 MyGo의 네이티브 UI로 그린 macOS·Windows·Linux용 데스크톱 앱입니다. Doubao와 Qianwen에서 텍스트-이미지, 이미지-이미지 생성을 일괄 실행하고, Camoufox 브라우저에 로그인한 여러 계정에 작업을 나눠 맡깁니다. 웹 페이지와 표에서 이미지 내려받기, 중복 이미지 정리, 파일 일괄 이름 바꾸기도 제공합니다. 새 릴리스는 현재 Windows용만 나옵니다."
+	},
+	"icon": {
+		"file": "tulai.webp"
+	},
+	"screenshot": "tulai.webp",
+	"provisional": [
+		"screenshot"
+	],
+	"added": "2026-11-05T03:22:12Z"
+}
