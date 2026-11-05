@@ -1,0 +1,33 @@
+{
+	"$schema": "../schema/app.schema.json",
+	"slug": "guitar-effects",
+	"name": "Guitar Effects",
+	"author": "passwii",
+	"kind": "native",
+	"category": "MultimediaApplication",
+	"url": "https://believeboy-guitar.vercel.app",
+	"repo": "passwii/believeboyGuitar",
+	"summary": {
+		"en": "A macOS desktop app that takes live guitar input and runs it through effects.",
+		"zh-CN": "把吉他实时输入接入效果处理的 macOS 桌面应用。",
+		"zh-TW": "將吉他即時輸入接上效果處理的 macOS 桌面應用程式。",
+		"ja": "ギターの入力音をリアルタイムでエフェクトに通す macOS デスクトップアプリ。",
+		"ko": "기타 입력 소리를 실시간으로 이펙트에 통과시키는 macOS 데스크톱 앱."
+	},
+	"description": {
+		"en": "The macOS desktop app of a personal electric guitar practice project, drawn with MyGo's native UI, which asks for audio input access to process your instrument. The rest of the project is made otherwise: a phone-first practice PWA built with Next.js, with weekly practice, tabs, a fretboard scale library and a metronome, and a separate WeChat mini program with a metronome and tuner.",
+		"zh-CN": "个人电吉他练习项目的 macOS 桌面应用，由 MyGo 原生 UI 绘制，会请求音频输入权限来处理乐器声音。项目的其余部分另行构建：用 Next.js 做的手机优先练习 PWA，提供周练、TAB、指板音阶资料库和节拍器；另有一个只含节拍器与调音器的微信小程序。",
+		"zh-TW": "個人電吉他練習專案的 macOS 桌面應用程式，由 MyGo 原生 UI 繪製，會請求音訊輸入權限來處理樂器聲音。專案其餘部分另行建置：以 Next.js 打造的手機優先練習 PWA，提供週練、TAB、指板音階資料庫與節拍器；另有一個只含節拍器與調音器的微信小程式。",
+		"ja": "個人向けエレキギター練習プロジェクトの macOS デスクトップアプリで、MyGo のネイティブ UI で描かれ、楽器の音を処理するためにオーディオ入力へのアクセスを求めます。ほかの部分は別の方法で作られています。Next.js 製のスマホ優先の練習用 PWA には週ごとの練習、TAB 譜、指板のスケール資料、メトロノームがあり、別に WeChat ミニプログラム版のメトロノームとチューナーもあります。",
+		"ko": "개인용 일렉기타 연습 프로젝트의 macOS 데스크톱 앱으로, MyGo의 네이티브 UI로 그렸으며 악기 소리를 처리하기 위해 오디오 입력 권한을 요청합니다. 나머지는 다른 방식으로 만들어졌습니다. Next.js로 만든 모바일 우선 연습 PWA에는 주간 연습, TAB 악보, 지판 스케일 자료, 메트로놈이 있고, 메트로놈과 튜너만 담은 별도의 WeChat 미니 프로그램도 있습니다."
+	},
+	"icon": {
+		"file": "guitar-effects.webp"
+	},
+	"provisional": [
+		"icon",
+		"screenshot"
+	],
+	"screenshot": "guitar-effects.webp",
+	"added": "2026-11-05T05:19:24Z"
+}
