@@ -1,0 +1,19 @@
+{
+	"$schema": "../schema/ui.schema.json",
+	"slug": "8bitmygoui-kutius",
+	"name": "8bitMyGoUI",
+	"author": "Kutius",
+	"tag": "retro",
+	"surface": "native",
+	"summary": {
+		"en": "Pixel-art components in a 16-bit console style for MyGo native UI: 500 components in 22 categories, from buttons to a chessboard, with eight swappable 16-color palettes.",
+		"zh-CN": "16 位游戏机风格的 MyGo 原生 UI 像素组件库，22 个分类共 500 个组件，从按钮到棋盘，附 8 套可切换的 16 色调色板。",
+		"zh-TW": "16 位元遊戲機風格的 MyGo 原生 UI 像素元件庫，22 個分類共 500 個元件，從按鈕到棋盤，附 8 組可切換的 16 色調色盤。",
+		"ja": "MyGo ネイティブ UI 向けの 16 ビット機風ドット絵コンポーネント集。22 カテゴリ 500 個をボタンからチェス盤まで収録し、16 色パレット 8 種を切り替えられます。",
+		"ko": "16비트 게임기 스타일의 MyGo 네이티브 UI 픽셀 아트 컴포넌트 라이브러리. 버튼부터 체스판까지 22개 분류 500개 컴포넌트와 바꿔 쓸 수 있는 16색 팔레트 8종을 제공합니다."
+	},
+	"repo": "Kutius/8bitMyGoUI",
+	"url": "https://github.com/Kutius/8bitMyGoUI",
+	"screenshot": "8bitmygoui-kutius.webp",
+	"added": "2026-11-05T04:45:28Z"
+}
